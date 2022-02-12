@@ -4,7 +4,12 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>BackupArchive_MainLogo.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Windows\BackupArchive_MainLogo.png" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="HandyControl" Version="3.3.0" />
@@ -13,6 +18,7 @@
 
   <ItemGroup>
     <Resource Include="Images\BackupArchive_MainLogo.png" />
+    <Resource Include="Windows\BackupArchive_MainLogo.png" />
   </ItemGroup>
 
 </Project>

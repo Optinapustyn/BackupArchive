@@ -12,7 +12,7 @@
         ResizeMode="NoResize" 
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None" 
-        Background="#2E3349">
+        Background="#2E3349" Icon="/Windows/BackupArchive_MainLogo.png">
     <Grid>
         <hc:SimplePanel Background="#181E36" HorizontalAlignment="Left" Width="180" Height="600" VerticalAlignment="Center">
             <Label Content="Backup Archive" HorizontalAlignment="Center" FontSize="20" Foreground="#289AF9" FontWeight="Bold" FontFamily="Century Gothic" VerticalAlignment="Top" Margin="0,152,0,0"/>
@@ -20,11 +20,11 @@
         <Image HorizontalAlignment="Left" Height="132" VerticalAlignment="Top" Width="124" Source="../Images/BackupArchive_MainLogo.png" Stretch="None" StretchDirection="UpOnly" Margin="28,25,0,0"/>
         <hc:SimplePanel Margin="0,192,720,0">
             <DockPanel LastChildFill="False">
-                <Button x:Name="Dashboard_Button" Height="50" Width="180" DockPanel.Dock="Top" Content="Dashboard" HorizontalContentAlignment="Center" Padding="10" FontSize="16" FontWeight="Bold" Foreground="#289AF9" Background="#2E3349" Cursor="Hand" BorderThickness="0"></Button>
-                <Button x:Name="Backup_Button" Height="50" Width="180" DockPanel.Dock="Top" Content="Backup" HorizontalContentAlignment="Center" Padding="10" FontSize="16" FontWeight="Bold" Foreground="#289AF9" Background="#181E36" Cursor="Hand" BorderThickness="0"></Button>
-                <Button x:Name="Recovery_Button" Height="50" Width="180" DockPanel.Dock="Top" Content="Recovery" HorizontalContentAlignment="Center" Padding="10" FontSize="16" FontWeight="Bold" Foreground="#289AF9" Background="#181E36" Cursor="Hand" BorderThickness="0"></Button>
-                <Button x:Name="Settings_Button" Height="50" Width="180" DockPanel.Dock="Top" Content="Settings" HorizontalContentAlignment="Center" Padding="10" FontSize="16" FontWeight="Bold" Foreground="#289AF9" Background="#181E36" Cursor="Hand" BorderThickness="0"></Button>
-                <Button x:Name="Help_Button" Height="50" Width="180" DockPanel.Dock="Bottom" Content="Help" HorizontalContentAlignment="Center" Padding="10" FontSize="16" FontWeight="Bold" Foreground="#289AF9" Background="#181E36" Cursor="Hand" BorderThickness="0"></Button>
+                <Button x:Name="Dashboard_Button" Height="50" Width="180" DockPanel.Dock="Top" Content="Dashboard" HorizontalContentAlignment="Center" Padding="10" FontSize="16" FontWeight="Bold" Foreground="#289AF9" Background="#2E3349" Cursor="Hand" BorderThickness="0" Click="Dashboard_Button_Click"></Button>
+                <Button x:Name="Backup_Button" Height="50" Width="180" DockPanel.Dock="Top" Content="Backup" HorizontalContentAlignment="Center" Padding="10" FontSize="16" FontWeight="Bold" Foreground="#289AF9" Background="#181E36" Cursor="Hand" BorderThickness="0" Click="Backup_Button_Click"></Button>
+                <Button x:Name="Recovery_Button" Height="50" Width="180" DockPanel.Dock="Top" Content="Recovery" HorizontalContentAlignment="Center" Padding="10" FontSize="16" FontWeight="Bold" Foreground="#289AF9" Background="#181E36" Cursor="Hand" BorderThickness="0" Click="Recovery_Button_Click"></Button>
+                <Button x:Name="Settings_Button" Height="50" Width="180" DockPanel.Dock="Top" Content="Settings" HorizontalContentAlignment="Center" Padding="10" FontSize="16" FontWeight="Bold" Foreground="#289AF9" Background="#181E36" Cursor="Hand" BorderThickness="0" Click="Settings_Button_Click"></Button>
+                <Button x:Name="Help_Button" Height="50" Width="180" DockPanel.Dock="Bottom" Content="Help" HorizontalContentAlignment="Center" Padding="10" FontSize="16" FontWeight="Bold" Foreground="#289AF9" Background="#181E36" Cursor="Hand" BorderThickness="0" Click="Help_Button_Click"></Button>
             </DockPanel>
         </hc:SimplePanel>
     </Grid>

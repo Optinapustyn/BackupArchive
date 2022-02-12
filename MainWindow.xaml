@@ -1,0 +1,19 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BackupArchive"
+        xmlns:hc="https://handyorg.github.io/handycontrol" x:Class="BackupArchive.MainWindow"
+        mc:Ignorable="d"
+        Title="Backup Archive" Height="600" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="#2E3349">
+    <Border BorderThickness="2" BorderBrush="#289AF9">
+        <Grid>
+            <Button x:Name="Login_Button" Height="50" Margin="0,0,215,25" FontSize="16" FontWeight="Bold" Foreground="#289AF9" Background="#181E36" BorderThickness="0" Cursor="Hand" FontFamily="Century Gothic" Content="LOGIN" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="156" Click="Login_Button_Click"/>
+            <Button x:Name="Close_Button" Height="50" Margin="215,0,0,25" FontSize="16" FontWeight="Bold" Foreground="#289AF9" Background="#181E36" BorderThickness="0" Cursor="Hand" FontFamily="Century Gothic" Content="CLOSE" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="156" Click="Close_Button_Click"/>
+            <TextBox Padding="10" Margin="25,330,25,0" Text="Username" FontSize="16" Foreground="#289AF9" TextWrapping="Wrap" VerticalAlignment="Top" Background="#2E3349" BorderBrush="#289AF9"/>
+            <TextBox Padding="10" Margin="25,426,25,0" Text="Password" FontSize="16" Foreground="#289AF9" TextWrapping="Wrap" VerticalAlignment="Top" Background="#2E3349" BorderBrush="#289AF9"/>
+            <Image Height="252" Margin="25,24,25,0" VerticalAlignment="Top"/>
+        </Grid>
+    </Border>
+</Window>

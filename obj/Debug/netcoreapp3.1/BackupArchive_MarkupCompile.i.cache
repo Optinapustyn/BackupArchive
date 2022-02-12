@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\u\source\repos\BackupArchive\App.xaml
-11407045341
+2-1611185224
 
-6-1868475947
+6-1786126844
 1961279689670
-MainWindow.xaml;
+Windows\BackupArchive_AwakeWindow.xaml;Windows\BackupArchive_HomeWindow.xaml;
 
 False
 

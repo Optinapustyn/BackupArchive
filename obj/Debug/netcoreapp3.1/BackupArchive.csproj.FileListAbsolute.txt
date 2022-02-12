@@ -4,12 +4,9 @@ C:\Users\u\source\repos\BackupArchive\bin\Debug\netcoreapp3.1\BackupArchive.runt
 C:\Users\u\source\repos\BackupArchive\bin\Debug\netcoreapp3.1\BackupArchive.runtimeconfig.dev.json
 C:\Users\u\source\repos\BackupArchive\bin\Debug\netcoreapp3.1\BackupArchive.dll
 C:\Users\u\source\repos\BackupArchive\bin\Debug\netcoreapp3.1\BackupArchive.pdb
-C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\BackupArchive.csproj.AssemblyReference.cache
-C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\BackupArchive_MarkupCompile.cache
 C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\BackupArchive_MarkupCompile.lref
-C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\MainWindow.baml
 C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\BackupArchive.g.resources
 C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\BackupArchive.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\BackupArchive.AssemblyInfoInputs.cache
@@ -23,5 +20,8 @@ C:\Users\u\source\repos\BackupArchive\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Beh
 C:\Users\u\source\repos\BackupArchive\bin\Debug\netcoreapp3.1\Prism.dll
 C:\Users\u\source\repos\BackupArchive\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
 C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\BackupArchive.csproj.CopyComplete
-C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\BackupArchive.Resource1.resources
-C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\BackupArchive.csproj.GenerateResource.cache
+C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\Windows\BackupArchive_AwakeWindow.g.cs
+C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\Windows\BackupArchive_AwakeWindow.baml
+C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\Windows\BackupArchive_HomeWindow.g.cs
+C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\Windows\BackupArchive_HomeWindow.baml
+C:\Users\u\source\repos\BackupArchive\obj\Debug\netcoreapp3.1\BackupArchive.csproj.AssemblyReference.cache

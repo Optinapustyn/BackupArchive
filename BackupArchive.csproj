@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Windows\BackupArchive_ExitIcon.png" />
     <None Remove="Windows\BackupArchive_MainLogo.png" />
   </ItemGroup>
 
@@ -18,6 +19,7 @@
 
   <ItemGroup>
     <Resource Include="Images\BackupArchive_MainLogo.png" />
+    <Resource Include="Windows\BackupArchive_ExitIcon.png" />
     <Resource Include="Windows\BackupArchive_MainLogo.png" />
   </ItemGroup>
 

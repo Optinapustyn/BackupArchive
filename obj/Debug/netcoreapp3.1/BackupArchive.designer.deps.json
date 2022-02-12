@@ -14,6 +14,21 @@
           }
         }
       },
+      "LiveCharts.Wpf.NetCore3/0.9.7": {
+        "dependencies": {
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/LiveCharts.Wpf.dll": {
+            "assemblyVersion": "0.9.7.0",
+            "fileVersion": "0.9.7.0"
+          },
+          "lib/netcoreapp3.1/LiveCharts.dll": {
+            "assemblyVersion": "0.9.7.0",
+            "fileVersion": "0.9.7.0"
+          }
+        }
+      },
       "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.dll": {
@@ -41,6 +56,14 @@
             "fileVersion": "8.1.97.5141"
           }
         }
+      },
+      "System.Data.DataSetExtensions/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
       }
     }
   },
@@ -51,6 +74,13 @@
       "sha512": "sha512-LY38yByPYXOP2kfQkneedgSE+Ps6XWsXId9hBoEgvef4/mdToqWNSueA6kg1u/nKCV1E8zdpI+ZvevDnlyF10Q==",
       "path": "handycontrol/3.3.0",
       "hashPath": "handycontrol.3.3.0.nupkg.sha512"
+    },
+    "LiveCharts.Wpf.NetCore3/0.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d0HkmjLi+HifeXyD+E14aOMPDRmwkkiqPYW4GDbUS8Z1m6eQPGCShcDcbWwP4tBoWzGEkkSsy+XSHvaoW50b0Q==",
+      "path": "livecharts.wpf.netcore3/0.9.7",
+      "hashPath": "livecharts.wpf.netcore3.0.9.7.nupkg.sha512"
     },
     "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
       "type": "package",
@@ -72,6 +102,13 @@
       "sha512": "sha512-ZEa6S1mK35h8/blyb0uR0ed3wkpHtPdhB4eniXINJnTiJMWlGl/As6SVlFFdOPD+qsEdWNYV3xgyQD/ue5cvBA==",
       "path": "prism.wpf/8.1.97",
       "hashPath": "prism.wpf.8.1.97.nupkg.sha512"
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
+      "path": "system.data.datasetextensions/4.5.0",
+      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
     }
   }
 }

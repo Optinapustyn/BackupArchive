@@ -5,22 +5,31 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>BackupArchive_MainLogo.ico</ApplicationIcon>
+    <StartupObject>BackupArchive.App</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\BackupArchive_ExitIcon.png" />
+    <None Remove="Images\BackupArchive_MainLogo.png" />
     <None Remove="Windows\BackupArchive_ExitIcon.png" />
     <None Remove="Windows\BackupArchive_MainLogo.png" />
+    <None Remove="Windows\BackupArchive_MainLogoSmall.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="HandyControl" Version="3.3.0" />
+    <PackageReference Include="LiveCharts.Wpf.NetCore3" Version="0.9.7" />
     <PackageReference Include="Prism.Wpf" Version="8.1.97" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\BackupArchive_ExitIcon.png" />
     <Resource Include="Images\BackupArchive_MainLogo.png" />
-    <Resource Include="Windows\BackupArchive_ExitIcon.png" />
-    <Resource Include="Windows\BackupArchive_MainLogo.png" />
+    <Resource Include="Images\BackupArchive_MainLogoSmall.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UserControls\" />
   </ItemGroup>
 
 </Project>

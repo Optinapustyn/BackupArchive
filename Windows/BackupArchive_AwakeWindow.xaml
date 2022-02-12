@@ -11,7 +11,7 @@
         ResizeMode="NoResize" 
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None" 
-        Background="#2E3349" Icon="/Windows/BackupArchive_MainLogo.png">
+        Background="#2E3349" Icon="../Images/BackupArchive_MainLogo.png">
     <Border BorderThickness="2" BorderBrush="#289AF9">
         <Grid>
             <Button x:Name="Login_Button" Height="50" Margin="0,0,215,25" FontSize="16" FontWeight="Bold" Foreground="#289AF9" Background="#181E36" BorderThickness="1" BorderBrush="#289AF9" Cursor="Hand" FontFamily="Century Gothic" Content="LOGIN" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="156" Click="Login_Button_Click"/>
